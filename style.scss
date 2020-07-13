@@ -1,13 +1,61 @@
 $white: #ffffff;
 $dark-blue: #123155;
+$pink: #E2016A;
+
+body {
+  background-color: #f3f5f7 !important;
+}
+
+.dark-blue-bg {
+  background-color: $dark-blue;
+  color: $white;
+}
+
+.pink-bg {
+  background-color: $pink;
+  color: $white;
+}
+
+.white-bg {
+  background-color: $white;
+}
+
+ul {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px 0px 0px 0px !important;
+  color: $dark-blue;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+li::before {
+  content: url('/assets/check.svg');
+  position: relative;
+  top: 3px;
+  padding-right: 10px;
+}
 
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 700 !important;
-  font-size: 72px !important;
+  font-size: 56px !important;
   line-height: 120% !important;
   color: $dark-blue;
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 36px !important;
+  }
 }
 
 h2 {
@@ -17,6 +65,7 @@ h2 {
   font-size: 22px !important;
   line-height: 140% !important;
   color: $dark-blue;
+  padding: 10px 0px 0px 0px;
 }
 
 p {
@@ -26,6 +75,7 @@ p {
   font-size: 16px !important;
   line-height: 160% !important;
   color: $dark-blue;
+  padding: 10px 0px 0px 0px;
 }
 
 .btn {
@@ -63,7 +113,25 @@ p {
 }
 
 .space {
-  margin: 120px 0px;
+  margin: 120px 0px 0px 0px;
+}
+
+.space-plus {
+  margin: 160px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .space {
+    margin: 60px 0px 0px 0px;
+  }
+
+  .no-sm {
+    margin-top: 0px !important;
+  }
+
+  .only-sm {
+    margin-top: 60px !important;
+  }
 }
 
 .header {
@@ -74,7 +142,6 @@ p {
 .hero {
   height: 600px;
   margin: -200px 0px 0px 0px;
-//  padding: 0px 0px 6vw 0px;
 
   display: flex;
   align-items: flex-end;
@@ -87,11 +154,19 @@ p {
   h1 {
     color: $white;
     align-self: flex-end;
+    padding: 0vw 2vw 2vw 2vw;
+    font-size: 72px !important;
   }
+}
 
-  .book {
-    background-color: $white;
-    padding: 32px !important;
+.book {
+  background-color: $white;
+  padding: 32px !important;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 400px;
   }
 }
 
@@ -103,4 +178,12 @@ p {
   .hero {
 //    padding: 0px 0px 80px 0px;
   }
+}
+
+.img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('assets/hero.jpg');
+  height: 40vh;
 }

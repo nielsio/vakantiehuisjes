@@ -1,12 +1,58 @@
+body {
+  background-color: #f3f5f7 !important;
+}
+
+.dark-blue-bg {
+  background-color: #123155;
+  color: #ffffff;
+}
+
+.pink-bg {
+  background-color: #E2016A;
+  color: #ffffff;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+ul {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px 0px 0px 0px !important;
+  color: #123155;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+li::before {
+  content: url("/assets/check.svg");
+  position: relative;
+  top: 3px;
+  padding-right: 10px;
+}
+
 h1 {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 700 !important;
-  font-size: 72px !important;
+  font-size: 56px !important;
   line-height: 120% !important;
   color: #123155;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px !important;
+  }
+}
 h2 {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -14,6 +60,7 @@ h2 {
   font-size: 22px !important;
   line-height: 140% !important;
   color: #123155;
+  padding: 10px 0px 0px 0px;
 }
 
 p {
@@ -23,6 +70,7 @@ p {
   font-size: 16px !important;
   line-height: 160% !important;
   color: #123155;
+  padding: 10px 0px 0px 0px;
 }
 
 .btn {
@@ -56,9 +104,26 @@ p {
 }
 
 .space {
-  margin: 120px 0px;
+  margin: 120px 0px 0px 0px;
 }
 
+.space-plus {
+  margin: 160px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .space {
+    margin: 60px 0px 0px 0px;
+  }
+
+  .no-sm {
+    margin-top: 0px !important;
+  }
+
+  .only-sm {
+    margin-top: 60px !important;
+  }
+}
 .header {
   background-color: #123155;
   padding: 40px 0px 240px 0px;
@@ -77,8 +142,24 @@ p {
 .hero h1 {
   color: #ffffff;
   align-self: flex-end;
+  padding: 0vw 2vw 2vw 2vw;
+  font-size: 72px !important;
 }
-.hero .book {
+
+.book {
   background-color: #ffffff;
   padding: 32px !important;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 400px;
+  }
+}
+.img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("assets/hero.jpg");
+  height: 40vh;
 }
