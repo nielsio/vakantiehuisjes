@@ -20,27 +20,22 @@ body {
   background-color: $white;
 }
 
+#white {
+  background-color: $white;
+}
+
 ul {
   margin: 0px !important;
   padding: 0px !important;
 }
 
-li {
-  list-style-type: none;
-  margin: 0px;
-  padding: 10px 0px 0px 0px !important;
-  color: $dark-blue;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 600 !important;
-  font-size: 18px !important;
+a:hover {
+  text-decoration: none !important;
 }
 
-li::before {
-  content: url('/assets/check.svg');
-  position: relative;
-  top: 3px;
-  padding-right: 10px;
+.nospace {
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 h1 {
@@ -78,6 +73,25 @@ p {
   padding: 10px 0px 0px 0px;
 }
 
+.date {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  color: rgba(18, 49, 85, 0.5) !important;
+
+  a {
+    color: rgba(18, 49, 85, 0.5) !important;
+    text-decoration: underline !important;
+  }
+}
+
+.thumbnail {
+  background-color: rgba(18, 49, 85, 0.0);
+}
+
+.thumbnail:hover {
+  background-color: rgba(18, 49, 85, 0.05);
+}
+
 .btn {
   border: none !important;
   border-radius: 0px !important;
@@ -89,9 +103,17 @@ p {
   background-color: #E2016A !important;
 }
 
+.btn-primary:hover {
+  background-color: #D20062 !important;
+}
+
 .btn-secondary {
   background-color: rgba(18, 49, 85, 0.2) !important;
   color: $dark-blue !important;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(18, 49, 85, 0.25) !important;
 }
 
 .btn-primary::after {
@@ -113,16 +135,26 @@ p {
 }
 
 .space {
-  margin: 120px 0px 0px 0px;
+  margin-top: 120px !important;
+}
+
+.padding {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
 }
 
 .space-plus {
-  margin: 160px 0px 0px 0px;
+  margin-top: 160px !important;
 }
 
 @media (max-width: 768px) {
   .space {
-    margin: 60px 0px 0px 0px;
+    margin-top: 60px !important;
+  }
+
+  .padding {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
   }
 
   .no-sm {
@@ -139,14 +171,28 @@ p {
   padding: 40px 0px 240px 0px;
 }
 
+.hero.min {
+  height: 300px !important;
+
+  h1 {
+    font-size: 56px !important;
+  }
+}
+
+.bc {
+  margin-top: -200px;
+}
+
+.hero.bc {
+  margin-top: 0px;
+}
+
 .hero {
   height: 600px;
   margin: -200px 0px 0px 0px;
 
   display: flex;
   align-items: flex-end;
-
-  background-image: url('/assets/hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -157,11 +203,63 @@ p {
     padding: 0vw 2vw 2vw 2vw;
     font-size: 72px !important;
   }
+
+  @media (max-width: 450px) {
+    h1{
+      font-size: 46px !important;
+    }
+  }
+}
+
+.no-webp .home {
+  background-image: url('/assets/hero.jpg');
+}
+
+.webp .home {
+  background-image: url('/assets/hero.webp');
+}
+
+.no-webp .omgeving {
+  background-image: url('/assets/indeomgeving.jpg');
+}
+
+.webp .omgeving {
+  background-image: url('/assets/indeomgeving.webp');
+}
+
+
+.navbar {
+  padding: 0px !important;
+}
+
+.nav-link {
+  padding-right: 30px !important;
+  padding-left: 0px !important;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
 }
 
 .book {
   background-color: $white;
   padding: 32px !important;
+
+  li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 0px 0px 0px !important;
+    color: $dark-blue;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+  }
+
+  li::before {
+    content: url('/assets/check.svg');
+    position: relative;
+    top: 3px;
+    padding-right: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -180,10 +278,36 @@ p {
   }
 }
 
-.img {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url('assets/hero.jpg');
-  height: 40vh;
+.breadcrumb {
+  background-color: transparent !important;
+  padding: 0px !important;
+
+  a {
+    color: $white;
+  }
+
+  a:hover {
+    color: rgba(255, 255, 255, 0.8)
+  }
+
+  .active {
+    color: rgba(255,255,255,.5) !important;
+  }
 }
+
+.cookiealert {
+  background: $dark-blue !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+// Blog heros
+
+.no-webp .vliegfabriek {
+    background-image: url("blogs/img/vliegfabriek2.jpg") !important;
+    background-position: center left !important;
+  }
+
+.webp .vliegfabriek {
+   background-image: url("blogs/img/vliegfabriek2.webp") !important;
+   background-position: center left !important;
+ }
