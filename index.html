@@ -3,30 +3,61 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Vakantiehuisjes in Twente – Vakantiepark De Tolplas in Hoge Hexel</title>
+    <title>Vakantiehuisjes in Twente – Bungalow op vakantiepark De Tolplas in Hoge Hexel</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+
+    <meta property="og:url" content="https://vakantiehuisjeintwente.nl/blog.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Vakantiehuisjes in Twente" />
+    <meta property="og:description" content="Bungalows op vakantiepark De Tolplas in Hoge Hexel" />
+    <meta property="og:image" content="https://vakantiehuisjeintwente.nl/assets/hero.jpg" />
+    <meta property="og:locale" content="nl_NL" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172550282-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-172550282-1');
+    </script>
   </head>
   <body>
     <div class="header">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col">
-            <img src="assets/logo.svg">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#"><img src="assets/logo.svg"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="informatie.html">De huisjes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">In de omgeving</a>
+              </li>
+            </ul>
+            <a href="https://boeken.roompot.nl/roompot/object?0&resourceid=27065838&objectid=3155358&dc=DBEI&rc=aangebrachteigenaa&lan=nl&ownerid=162890686&myenv=true&fbclid=IwAR0iPwq1EaihmakoX73zTHo6-7sz_van4YVVeduadFml-Ro9ukMbSu74wE8" target="_blank"><button type="button" class="btn btn-primary mt-1">Boeken</button></a>
           </div>
-          <div class="col d-flex justify-content-end">
-            <button type="button" class="btn btn-primary mt-1">Boeken</button>
-          </div>
-        </div>
+        </nav>
       </div>
     </div>
 
-    <div class="container hero">
+    <div class="container hero home">
       <div class="row align-items-end">
         <div class="col-lg-8 col-md-6">
-          <h1>Twents huisje met sauna</h1>
+          <h1>Twentse bungalow met sauna</h1>
         </div>
 
         <div class="col-lg-4 col-md-6">
@@ -35,12 +66,12 @@
               <img src="assets/104.svg" width="100%">
             </div>
             <div class="col-8 align-items-center">
-              <button type="button" class="btn btn-secondary">Informatie</button><br>
-              <button type="button" class="btn btn-primary mt-1">Boeken</button>
+              <!--<button type="button" class="btn btn-secondary">Informatie</button><br>-->
+              <a href="https://boeken.roompot.nl/roompot/object?0&resourceid=27065838&objectid=3155358&dc=DBEI&rc=aangebrachteigenaa&lan=nl&ownerid=162890686&myenv=true&fbclid=IwAR0iPwq1EaihmakoX73zTHo6-7sz_van4YVVeduadFml-Ro9ukMbSu74wE8" target="_blank"><button type="button" class="btn btn-primary mt-1">Boeken</button></a>
             </div>
           </div>
 
-          <div class="row align-items-center book mb-md-n5 mr-md-1 d-none d-md-flex">
+          <!--<div class="row align-items-center book mb-md-n5 mr-md-1 d-none d-md-flex">
             <div class="col-4">
               <img src="assets/111.svg" width="100%">
             </div>
@@ -48,7 +79,7 @@
               <button type="button" class="btn btn-secondary">Informatie</button><br>
               <button type="button" class="btn btn-primary mt-1">Boeken</button>
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -66,7 +97,7 @@
           </ul>
         </div>
         <div class="col-md-8 pl-md-5">
-          <h1 class="only-sm">Genieten van Twente.</h1>
+          <h1 class="only-sm">Genieten in Twente.</h1>
           <h2>Op Recreatiepark De Tolplas in Twente beleeft u een heerlijke vakantie midden in de natuur.</h2>
           <p>De bungalows zijn omringd door groen, hebben een ruime tuin met terras en bieden veel privacy. Tijdens uw verblijf op dit park hoeft u zich geen moment te vervelen. Op de recreatieplas kunt u zwemmen, vissen en windsurfen en het strandje is de perfecte plek om op warme dagen te genieten van de zon. De kinderen kunnen lekker spelen op de verschillende veldjes en gezellig tafeltennissen, jeu-de-boulen en voetballen. Liever de omgeving verkennen? Huur een mountainbike en maak een rit door het prachtige nabijgelegen Nationaal Park De Sallandse Heuvelrug. Een spetterende afsluiter van de vakantie is natuurlijk een bezoek aan Avonturenpark Hellendoorn.</p>
         </div>
@@ -74,15 +105,129 @@
     </div>
 
     <div class="container space">
-      <div class="row">
-        <div class="col-sm-6 img"></div>
-        <div class="col-sm-3 img"></div>
-        <div class="col-sm-3 img"></div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <picture>
+                <source class="d-block w-100" type="image/webp" srcset="/assets/carousel1.webp">
+                <source class="d-block w-100" type="image/jpeg" srcset="/assets/carousel1.jpg">
+                <img class="d-block w-100" src="/assets/carousel1.jpg" alt="">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+                <source class="d-block w-100" type="image/webp" srcset="/assets/carousel2.webp">
+                <source class="d-block w-100" type="image/jpeg" srcset="/assets/carousel2.jpg">
+                <img class="d-block w-100" src="/assets/carousel2.jpg" alt="">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+                <source class="d-block w-100" type="image/webp" srcset="/assets/carousel3.webp">
+                <source class="d-block w-100" type="image/jpeg" srcset="/assets/carousel3.jpg">
+                <img class="d-block w-100" src="/assets/carousel3.jpg" alt="">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+                <source class="d-block w-100" type="image/webp" srcset="/assets/carousel4.webp">
+                <source class="d-block w-100" type="image/jpeg" srcset="/assets/carousel4.jpg">
+                <img class="d-block w-100" src="/assets/carousel4.jpg" alt="">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+                <source class="d-block w-100" type="image/webp" srcset="/assets/carousel5.webp">
+                <source class="d-block w-100" type="image/jpeg" srcset="/assets/carousel5.jpg">
+                <img class="d-block w-100" src="/assets/carousel5.jpg" alt="">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+                <source class="d-block w-100" type="image/webp" srcset="/assets/carousel6.webp">
+                <source class="d-block w-100" type="image/jpeg" srcset="/assets/carousel6.jpg">
+                <img class="d-block w-100" src="/assets/carousel6.jpg" alt="">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+                <source class="d-block w-100" type="image/webp" srcset="/assets/carousel7.webp">
+                <source class="d-block w-100" type="image/jpeg" srcset="/assets/carousel7.jpg">
+                <img class="d-block w-100" src="/assets/carousel7.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Vorige foto</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Volgende foto</span>
+        </a>
       </div>
     </div>
 
+    <div id="white" class="space no-sm">
+      <div class="container padding">
+        <div class="row align-items-center pb-4">
+          <div class="col-auto">
+            <h1>In de omgeving</h1>
+          </div>
+          <div class="col-auto ml-auto d-none d-md-block">
+            <a class="nav-link" href="blog.html"><button type="button" class="btn btn-secondary">Meer ‘In de omgeving’</button></a>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <a href="blogs/kinderuitje-in-enschede-de-vliegfabriek.html">
+            <div class="col my-2">
+              <div class="row align-items-center thumbnail">
+                <div class="col-6">
+                  <picture>
+                      <source width="100%" type="image/webp" srcset="/blogs/img/vliegfabriek-thumb.webp">
+                      <source width="100%" type="image/jpeg" srcset="/blogs/img/vliegfabriek-thumb.jpg">
+                      <img width="100%" src="/blogs/img/vliegfabriek-thumb.jpg" alt="My Image">
+                  </picture>
+                </div>
+                <div class="col-6">
+                  <span class="date">13 juli 2020</span>
+                  <h2 class="nospace">Vliegfabriek: Kinderuitje in Enschede</h2>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="row align-items-center pt-4 d-block d-md-none">
+          <div class="col-auto">
+            <a href="blog.html"><button type="button" class="btn btn-secondary">Meer ‘In de omgeving’</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- START Bootstrap-Cookie-Alert -->
+    <div class="alert text-center cookiealert" role="alert">
+        Hou je van cookies? &#x1F36A; Wij gebruiken ze om jouw ervaring te verbeteren.</a>
+
+        <button type="button" class="btn btn-primary acceptcookies">
+            Oké!
+        </button>
+    </div>
+    <!-- END Bootstrap-Cookie-Alert -->
+
+    <script src="assets/modernizr-custom.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
   </body>
 </html>
