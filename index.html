@@ -6,6 +6,7 @@
     <title>Vakantiehuisjes in Twente – Bungalow op vakantiepark De Tolplas in Hoge Hexel</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
@@ -51,10 +52,7 @@
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="vakantiehuisje-104.html">Vakantiehuisje 104</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="vakantiehuisje-111.html">Vakantiehuisje 111</a>
+                <a class="nav-link" href="vakantiehuisje-111.html">Bungalow 111</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="blog.html">Omgeving</a>
@@ -68,8 +66,8 @@
                 <button type="button" class="btn btn-primary mt-1">Reserveren</button>
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Huisje 104</a>
-                <a class="dropdown-item" href="https://boeken.roompot.nl/roompot/object?0&resourceid=27065838&objectid=3155358&dc=DBEI&rc=aangebrachteigenaa&lan=nl&ownerid=162890686&myenv=true&fbclid=IwAR0iPwq1EaihmakoX73zTHo6-7sz_van4YVVeduadFml-Ro9ukMbSu74wE8" target="_blank">Huisje 111</a>
+
+                <a class="dropdown-item" href="https://boeken.roompot.nl/roompot/object?0&resourceid=27065838&objectid=3155358&dc=DBEI&rc=aangebrachteigenaa&lan=nl&ownerid=162890686&myenv=true&fbclid=IwAR0iPwq1EaihmakoX73zTHo6-7sz_van4YVVeduadFml-Ro9ukMbSu74wE8" target="_blank">Bungalow 111</a>
               </div>
             </li>
           </div>
@@ -107,7 +105,7 @@
       </div>
     </div>
 
-    <div class="container space-plus no-sm">
+    <div class="container space no-sm">
       <div class="row align-items-start">
         <div class="col-md-4 book white-bg checklist">
           <ul>
@@ -212,19 +210,53 @@
           </div>
         </div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-          <a href="blogs/kinderuitje-in-enschede-de-vliegfabriek.html">
+          <a href="blogs/wandeling-ommetje-hoge-hexel.html">
             <div class="col my-2">
               <div class="row align-items-center thumbnail">
                 <div class="col-6">
                   <picture>
-                      <source width="100%" type="image/webp" srcset="/blogs/img/vliegfabriek-thumb.webp">
-                      <source width="100%" type="image/jpeg" srcset="/blogs/img/vliegfabriek-thumb.jpg">
-                      <img width="100%" src="/blogs/img/vliegfabriek-thumb.jpg" alt="My Image">
+                      <source width="100%" type="image/webp" srcset="/blogs/img/ommetje-hoge-hexel-thumb.webp">
+                      <source width="100%" type="image/jpeg" srcset="/blogs/img/ommetje-hoge-hexel-thumb.jpg">
+                      <img width="100%" src="/blogs/img/ommetje-hoge-hexel-thumb.jpg" alt="Ommetje Hoge Hexel">
                   </picture>
                 </div>
                 <div class="col-6">
-                  <span class="date">13 juli 2020</span>
-                  <h2 class="nospace">Vliegfabriek: Kinderuitje in Enschede</h2>
+                  <span class="date">24 juli 2020</span>
+                  <h2 class="nospace">Wandeling "Ommetje Hoge Hexel"</h2>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="blogs/fietstocht-sallandse-heuvelrug-knooppuntroute.html">
+            <div class="col my-2">
+              <div class="row align-items-center thumbnail">
+                <div class="col-6">
+                  <picture>
+                      <source width="100%" type="image/webp" srcset="/blogs/img/fietstocht-sallandse-heuvelrug-thumb.webp">
+                      <source width="100%" type="image/jpeg" srcset="/blogs/img/fietstocht-sallandse-heuvelrug-thumb.jpg">
+                      <img width="100%" src="/blogs/img/fietstocht-sallandse-heuvelrug-thumb.jpg" alt="Fietstocht Sallandse Heuvelrug">
+                  </picture>
+                </div>
+                <div class="col-6">
+                  <span class="date">23 juli 2020</span>
+                  <h2 class="nospace">Fietstocht Sallandse Heuvelrug</h2>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="blogs/musea-almelo-in-de-omgeving-twente.html">
+            <div class="col my-2">
+              <div class="row align-items-center thumbnail">
+                <div class="col-6">
+                  <picture>
+                      <source width="100%" type="image/webp" srcset="/blogs/img/musea-almelo-thumb.webp">
+                      <source width="100%" type="image/jpeg" srcset="/blogs/img/musea-almelo-thumb.jpg">
+                      <img width="100%" src="/blogs/img/musea-almelo-thumb.jpg" alt="Musea Almelo">
+                  </picture>
+                </div>
+                <div class="col-6">
+                  <span class="date">20 juli 2020</span>
+                  <h2 class="nospace">Musea Almelo</h2>
                 </div>
               </div>
             </div>
@@ -233,6 +265,37 @@
         <div class="row align-items-center pt-4 d-block d-md-none">
           <div class="col-auto">
             <a href="blog.html"><button type="button" class="btn btn-secondary">Meer ‘In de omgeving’</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container space">
+      <div class="row pb-4">
+        <div class="col">
+          <h1>Plattegrond en kaart</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="assets/plattegrond.jpg" data-toggle="lightbox">
+            <div class="kaart"></div>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.5581269889376!2d6.554836016189083!3d52.414684151780754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7f8e091898a33%3A0x44305a71fc80f65b!2sGroepsaccommodatie%20de%20Twentse%20Hoeve!5e0!3m2!1snl!2snl!4v1595525863501!5m2!1snl!2snl" width="100%" height="450px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-blue-bg w-100">
+      <div class="container space padding">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-auto">
+            <img src="assets/logo.svg">
+          </div>
+          <div class="col-auto">
+            <a href="https://www.facebook.com/vakantiehuisjesintwente" target="_blank"><button type="button" class="btn btn-info facebook">Vakantiehuisjes in Twente op Facebook</button></a>
           </div>
         </div>
       </div>
@@ -250,8 +313,15 @@
 
     <script src="assets/modernizr-custom.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+    <script>
+      $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+      });
+    </script>
   </body>
 </html>

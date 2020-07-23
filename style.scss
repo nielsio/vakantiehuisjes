@@ -116,6 +116,15 @@ p {
   background-color: rgba(18, 49, 85, 0.25) !important;
 }
 
+.btn-info {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+}
+
+.btn-info:hover {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
 .btn-primary::after {
   content: url('/assets/arrow-white.svg');
   position: relative;
@@ -130,6 +139,102 @@ p {
   padding-left: 6px;
 }
 
+.facebook::before {
+  content: url('/assets/facebook.svg');
+  position: relative;
+  top: 2px;
+  padding-right: 10px;
+}
+
+.facility {
+  background-color: #f0f0e7;
+  padding: 30px 0px 60px 0px !important;
+
+  .facility-title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 140% !important;
+    color: #292929;
+    margin: 30px 0px 10px 0px;
+    display: block;
+  }
+
+  li {
+    padding: 3px 0px 0px 0px !important;
+    margin: 0px !important;
+    list-style-type: none;
+  }
+
+  li::before {
+    content: url('/assets/facility-check.svg');
+    position: relative;
+    top: 4px;
+    padding-right: 13px;
+  }
+
+  .algemeen::before {
+    content: url('/assets/algemeen.svg');
+    position: relative;
+    top: 4px;
+    padding-right: 8px;
+  }
+
+  .woonkamer::before {
+    content: url('/assets/woonkamer.svg');
+    position: relative;
+    top: 4px;
+    padding-right: 8px;
+  }
+
+  .keuken::before {
+    content: url('/assets/keuken.svg');
+    position: relative;
+    top: 4px;
+    padding-right: 8px;
+  }
+
+  .slaapkamer::before {
+    content: url('/assets/slaapkamer.svg');
+    position: relative;
+    top: 4px;
+    padding-right: 8px;
+  }
+
+  .badkamer::before {
+    content: url('/assets/badkamer.svg');
+    position: relative;
+    top: 4px;
+    padding-right: 8px;
+  }
+
+  .wellness::before {
+    content: url('/assets/wellness.svg');
+    position: relative;
+    top: 4px;
+    padding-right: 8px;
+  }
+
+  .buiten::before {
+    content: url('/assets/buiten.svg');
+    position: relative;
+    top: 4px;
+    padding-right: 8px;
+  }
+
+  .ligging::before {
+    content: url('/assets/ligging.svg');
+    position: relative;
+    top: 4px;
+    padding-right: 8px;
+  }
+}
+
+.no-padding {
+  padding: 0vw 0.25vw !important;
+}
+
 .pad {
 //  padding: 0vw 6vw 0vw 6vw !important;
 }
@@ -140,6 +245,11 @@ p {
 
 .space-min {
   margin-top: 60px !important;
+}
+
+.padding-min {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
 }
 
 .padding {
@@ -168,6 +278,14 @@ p {
   .only-sm {
     margin-top: 60px !important;
   }
+
+  .no-padding {
+    padding: 0vw 0vw !important;
+  }
+
+  .image-margin {
+    margin-top: 0vw !important;
+  }
 }
 
 .header {
@@ -181,6 +299,13 @@ p {
   h1 {
     font-size: 56px !important;
   }
+}
+
+.kaart {
+  background-image: url('assets/plattegrond.jpg');
+  height: 450px;
+  background-size: cover;
+  background-position: top;
 }
 
 .bc {
@@ -348,6 +473,34 @@ p {
   font-family: 'Open Sans', sans-serif !important;
 }
 
+.ekko-lightbox-nav-overlay a {
+  color: #ffffff !important;
+}
+
+.modal-body {
+  padding: 0px !important;
+}
+
+.modal-content {
+  border: none !important;
+  border-radius: 0px !important;
+  background-color: none !important;
+}
+
+.image-margin {
+  margin-top: 0.5vw !important;
+}
+
+.no-webp .contact {
+    background-image: url("assets/plattegrond.jpg") !important;
+    background-position: center left !important;
+  }
+
+.webp .contact {
+   background-image: url("assets/plattegrond.webp") !important;
+   background-position: center left !important;
+ }
+
 // Blog heros
 
 .no-webp .vliegfabriek {
@@ -359,3 +512,33 @@ p {
    background-image: url("blogs/img/vliegfabriek2.webp") !important;
    background-position: center left !important;
  }
+
+ .no-webp .musea-almelo {
+     background-image: url("blogs/img/musea-almelo.jpg") !important;
+     background-position: center left !important;
+   }
+
+ .webp .musea-almelo {
+    background-image: url("blogs/img/musea-almelo.webp") !important;
+    background-position: center left !important;
+  }
+
+.no-webp .ommetje-hh {
+    background-image: url("blogs/img/ommetje-hoge-hexel.jpg") !important;
+    background-position: top left !important;
+  }
+
+.webp .ommetje-hh {
+   background-image: url("blogs/img/ommetje-hoge-hexel.webp") !important;
+   background-position: top left !important;
+ }
+
+ .no-webp .fietstocht {
+     background-image: url("blogs/img/fietstocht.jpg") !important;
+     background-position: center !important;
+   }
+
+ .webp .fietstocht {
+    background-image: url("blogs/img/fietstocht.webp") !important;
+    background-position: center !important;
+  }
