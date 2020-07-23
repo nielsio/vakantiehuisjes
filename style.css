@@ -128,6 +128,10 @@ p {
   margin-top: 120px !important;
 }
 
+.space-min {
+  margin-top: 60px !important;
+}
+
 .padding {
   padding-top: 100px !important;
   padding-bottom: 100px !important;
@@ -223,6 +227,14 @@ p {
   font-style: normal;
 }
 
+.no-r {
+  padding-right: 1px !important;
+}
+
+.dropdown {
+  list-style: none !important;
+}
+
 .book {
   background-color: #ffffff;
   padding: 32px !important;
@@ -237,11 +249,44 @@ p {
   font-weight: 600 !important;
   font-size: 18px !important;
 }
-.book li::before {
+
+.checklist li::before {
   content: url("/assets/check.svg");
   position: relative;
   top: 3px;
   padding-right: 10px;
+}
+
+.smalllist li {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  list-style-type: none;
+  padding: 3px 0px 3px !important;
+}
+
+.card {
+  border: none !important;
+  border-radius: 0px !important;
+  border: none !important;
+}
+
+.card-header {
+  background-color: #123155 !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 900 !important;
+  border: none !important;
+  margin: 0px !important;
+  padding: 0px 0px 8px 8px !important;
+}
+.card-header button {
+  color: #ffffff !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.card-body {
+  padding: 10px 20px 10px 20px !important;
 }
 
 @media (max-width: 768px) {
