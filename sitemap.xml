@@ -9,23 +9,48 @@
 
 <url>
   <loc>https://vakantiehuisjeintwente.nl/</loc>
-  <lastmod>2020-07-13T20:43:32+00:00</lastmod>
+  <lastmod>2020-07-23T21:23:55+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://vakantiehuisjeintwente.nl/index.html</loc>
-  <lastmod>2020-07-13T20:43:32+00:00</lastmod>
+  <lastmod>2020-07-23T21:23:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vakantiehuisjeintwente.nl/vakantiehuisje-111.html</loc>
+  <lastmod>2020-07-23T21:23:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vakantiehuisjeintwente.nl/blog.html</loc>
-  <lastmod>2020-07-13T20:39:43+00:00</lastmod>
+  <lastmod>2020-07-23T21:23:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vakantiehuisjeintwente.nl/contact.html</loc>
+  <lastmod>2020-07-23T21:39:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vakantiehuisjeintwente.nl/blogs/wandeling-ommetje-hoge-hexel.html</loc>
+  <lastmod>2020-07-23T21:23:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vakantiehuisjeintwente.nl/blogs/fietstocht-sallandse-heuvelrug-knooppuntroute.html</loc>
+  <lastmod>2020-07-23T21:35:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vakantiehuisjeintwente.nl/blogs/musea-almelo-in-de-omgeving-twente.html</loc>
+  <lastmod>2020-07-23T21:36:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vakantiehuisjeintwente.nl/blogs/kinderuitje-in-enschede-de-vliegfabriek.html</loc>
-  <lastmod>2020-07-13T20:41:13+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2020-07-23T21:23:54+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
