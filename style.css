@@ -322,11 +322,11 @@ p {
   background-image: url("/assets/hero.webp");
 }
 
-.no-webp .home2 {
+.no-webp .home-alt {
   background-image: url("/assets/carousel2-1.jpg");
 }
 
-.webp .home2 {
+.webp .home-alt {
   background-image: url("/assets/carousel2-1.webp");
 }
 
