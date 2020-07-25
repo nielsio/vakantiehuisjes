@@ -348,6 +348,14 @@ p {
   background-image: url('/assets/hero.webp');
 }
 
+.no-webp .home2 {
+  background-image: url('/assets/carousel2-1.jpg');
+}
+
+.webp .home2 {
+  background-image: url('/assets/carousel2-1.webp');
+}
+
 .no-webp .omgeving {
   background-image: url('/assets/indeomgeving.jpg');
 }
